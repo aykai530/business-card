@@ -1,0 +1,116 @@
+
+
+body {
+    margin: 20px;
+    /*
+    Challenge:
+    Find a web safe font you like, and add it 
+    to your card.
+    */
+    font-family:  Helvetica, Arial, sans-serif;
+}
+
+.avatar {
+    width: 150px;
+    margin-left: -80px;
+    
+    
+}
+
+.namesec{
+    margin-left: 20px;
+    animation-duration: 3s;
+    animation-name: slide-in;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+    
+}
+
+
+.card {
+    width: 250px;
+    margin: 0 auto;
+    padding: 40px;
+    
+    display: flex;
+    justify-content: space-around;
+    
+    text-align: left;
+   
+    
+    background: #BFCC94;
+    animation-name: example;
+    animation-duration: 4s;
+    color: #2b2839;
+    border-right: 16px solid #E6AACE;
+        
+    /*
+    Challenge:
+    Find a color palette you like on Coolors.co
+    and use it in your business card.
+     */
+}
+
+h3{
+    color: #0D1821;
+    font-size: 30px;
+    line-height: 32px;
+}
+
+p{
+    color:#344966;
+    font-weight: 500;
+    line-height: 18px;
+   
+    
+}
+
+h4{
+    color:#344966;
+    font-weight: 100;
+    line-height: 10px;
+}
+
+
+/* default hover effect */
+a:hover {
+  color: black;
+  background: yellow;
+}
+
+@media (hover: hover) {
+  /* when hover is supported */
+  a:hover {
+    color: white;
+    background: black;
+  }
+}
+
+h3:hover, p:hover, h4:hover {
+  color: #ffffff;
+  background-color: #E6AACE;
+}
+
+
+/*
+Stretch goals:
+Find other ways you can personalize 
+the design of your business card, e.g.:
+- change the border(s)
+- add border radius
+- shuffle the layout
+- shadows        🤯
+- hover effects  🤯🤯
+- animations     🤯🤯🤯
+*/
+
+/*
+Final challenge:
+Download the code to your local computer and place it
+in a folder called "business-card"
+*/
+ @keyframes example {
+    from {background-color: #E6AACE;}
+    to {background-color: #BFCC94 ;}
+    }
